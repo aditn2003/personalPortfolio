@@ -2776,7 +2776,7 @@ input, select, textarea {
     font-size: 3em;
 	position: relative;
     color: #ffffff;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 	text-align: left;
 	text-shadow: 2px 2px 4px #6f6f6f;
 	font-weight: bolder;
