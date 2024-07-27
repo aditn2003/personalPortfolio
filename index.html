@@ -32,9 +32,7 @@
 		<!-- About Me -->
 		<section id="about">
 			<header class="major">
-				<h2>Hello World,<br>
-					I am Adit Nuwal...
-				</h2>
+				<h2><span id="typing-text"></span></h2>
 			</header>
 			<p>An aspiring software developer fueled by a desire to turn ideas into reality and a constant quest for knowledge. I'm always on the lookout for opportunities to apply what I've learned, while also embracing new challenges to expand my skill set. Let's connect and innovate together!
 
@@ -48,7 +46,7 @@
 				<li><a href="documents/Adit Resume Latest.pdf" class="button">Resume</a></li>
 			</ul>
 			<ul class="actions2">
-				<a href="https://www.linkedin.com/in/aditnuwal18/" class="button">LinkedIn</a>
+				<a href="https://www.linkedin.com/in/aditnuwal18/" class="button">Let's Connect</a>
 			</ul>
 		</section>
 		
@@ -65,7 +63,22 @@
 		<p>Data Structures and Algorithms, Advanced Database Systems, Intensive Programming in Linux, Data Science, Operating Systems</p>
     </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const text = "Hello World, \nI am Adit Nuwal...";
+        let index = 0;
 
+        function type() {
+            if (index < text.length) {
+                document.getElementById("typing-text").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, 120); 
+            }
+        }
+
+        type();
+    });
+</script>
 
 			<!-- Two -->
 <section id="projects">
@@ -225,6 +238,7 @@
         </div>
     </div>
 </section>
+
 
 
 				<!-- Four -->
