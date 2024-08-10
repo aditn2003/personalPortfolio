@@ -2854,18 +2854,17 @@ input, select, textarea {
     right: 12em;
 }
 #about .actions2 .button {
-    background-color: #3eb08f; /* Button color */
-    color: #2c2b30; /* Text color */
+    background-color: #3eb08f; 
+    color: #2c2b30; 
 	border: solid 3px #3eb08f;
-	text-shadow: 0 1px 2px #6f6f6f;
-    padding: 0.75em 1.5em; /* Padding for the button */
-    font-size: 1em; /* Font size */
-    border-radius: 4px; /* Rounded corners */
-    display: flex; /* Use flexbox for centering text */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    text-align: center; /* Ensure text is centered */
-    width: 150px; /* Fixed width for the button (adjust as needed) */
+	font-weight: bold;    
+	padding: 0.75em 1.5em;
+    font-size: 1em; 
+    border-radius: 4px; 
+    display: flex;    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    width: 150px; 
 }
 #about .actions2 .button:hover{
 
@@ -2888,10 +2887,7 @@ input, select, textarea {
     color: #ffffff;
 	margin: 0 1em 0 0;
 	font-weight: bolder;
-	/* text-decoration: underline;
-	text-decoration-color: #6f6f6f;
-	text-decoration-thickness: 4px; */
-	/* text-shadow: 2px 2px 4px #6f6f6f; */
+
 	text-shadow: 
         1px 1px 0 #000,  
        -1px -1px 0 #000,
@@ -2919,7 +2915,6 @@ input, select, textarea {
 	margin: 0 0 0.5em 0;
 	font-weight:bold;
 	margin-bottom: 0.25em;
-	/* text-shadow: 5px 5px 4px #868686; */
 	text-shadow: 
         1px 1px 0 #000,  
        -1px -1px 0 #000,
@@ -2936,13 +2931,13 @@ input, select, textarea {
         1px 1px 0 #000,  
        -1px -1px 0 #000,
         1px -1px 0 #000,
-       -1px  1px 0 #000, /* Outline color */
+       -1px  1px 0 #000, 
         0 0 2px rgba(0, 0, 0, 0.3); 
 	
 }
 
 .academics:hover {
-    background-color: #646464; /* Grey color on hover */
+    background-color: #646464; 
 	color:#000;
 	text-emphasis-color: #000;
 	transform: scale(1.05);
@@ -2952,8 +2947,8 @@ input, select, textarea {
 /* Projects */
 #projects {
     position:static;
-	padding: 2em; /* Adjust padding as needed */
-    border-top: solid 2px #efefef; /* Retains the border if needed */
+	padding: 2em; 
+    border-top: solid 2px #efefef; 
     margin-bottom: 4em; 
 }
 
@@ -2969,11 +2964,11 @@ input, select, textarea {
 #projects h2::after {
     content: "";
     width: 100px; 
-    height: 3px; /* Height of the line */
-    background-color: #ffce63; /* Line color */
-    margin-top: 1em; /* Space between text and line */
-	display: flex; /* Use flexbox for centering text */
-	margin: 0 auto; /* Centers the line horizontally */
+    height: 3px; 
+    background-color: #ffce63; 
+    margin-top: 1em; 
+	display: flex; 
+	margin: 0 auto; 
 
 }
 
@@ -2990,7 +2985,7 @@ input, select, textarea {
 }
 
 #projects .work-item:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05);
 }
 
 #projects .work-content {
@@ -3027,20 +3022,17 @@ input, select, textarea {
 }
 
 #projects .work-content .details a.github-button {
-    background-color: #3eb08f; /* Button color */
-    color: #2c2b30; /* Text color */
+    background-color: #3eb08f; 
+    color: #2c2b30; 
 	border: solid 3px #3eb08f;
-	margin-top: 1em;
-	font-weight: bold;
-	
-    padding: 0.75em 1.5em; /* Padding for the button */
-    font-size: 1em; /* Font size */
-    border-radius: 4px; /* Rounded corners */
-    display: flex; /* Use flexbox for centering text */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    text-align: center; /* Ensure text is centered */
-    width: 150px; /* Fixed width for the button (adjust as needed) */
+	font-weight: bold;    
+	padding: 0.75em 1.5em;
+    font-size: 1em; 
+    border-radius: 4px; 
+    display: flex;    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    width: 150px; 
 }
 
 #projects .work-content .details a.github-button:hover {
@@ -3070,12 +3062,11 @@ input, select, textarea {
 #experience h2::after {
     content: "";
     width: 100px; 
-    height: 3px; /* Height of the line */
-    background-color: #ffce63; /* Line color */
-    margin-top: 1em; /* Space between text and line */
-	display: flex; /* Use flexbox for centering text */
-	margin: 0 auto; /* Centers the line horizontally */
-
+    height: 3px; 
+    background-color: #ffce63; 
+    margin-top: 1em; 
+	display: flex; 
+	margin: 0 auto; 
 }
 
 /* Experience Item */
