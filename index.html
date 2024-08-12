@@ -13,11 +13,12 @@
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<script src="js2/modernizr-2.6.2.min.js"></script>
-	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 	<script type="text/javascript">
-    	(function() {
-        	emailjs.init("rDXgb3GToEzkJbPfl"); 
-    	})();
+		(function() {
+			emailjs.init("rDXgb3GToEzkJbPfl");
+		})();
 	</script>
 
 	</head>
@@ -54,7 +55,7 @@
 				<li><a href="documents/Adit Resume Latest.pdf" class="button">Resume</a></li>
 			</ul>
 			<ul class="actions2">
-				<a href="https://www.linkedin.com/in/aditnuwal18/" class="button">Let's Connect</a>
+				<a href="https://www.linkedin.com/in/aditnuwal18/" target="_blank" rel="noopener noreferrer" class="button">Let's Connect</a>
 			</ul>
 		</section>
 		
@@ -147,8 +148,8 @@
 						<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h3 class="timeline-title">Senior Developer</h3>
-								<span class="company">Company Name - 2016 - Current</span>
+								<h3 class="timeline-title">Software Engineering Fellow</h3>
+								<span class="company">Headstarter AI</br> July 2024 - Current</span>
 							</div>
 							<div class="timeline-body">
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -159,8 +160,8 @@
 						<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h3 class="timeline-title">Junior Developer</h3>
-								<span class="company">Company Name - 2013 - 2015</span>
+								<h3 class="timeline-title">Backend Development Intern</h3>
+								<span class="company">Bonzai Digital</br> June 2024 - July 2024</span>
 							</div>
 							<div class="timeline-body">
 								<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -171,25 +172,48 @@
 						<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h3 class="timeline-title">UI/UX Designer</h3>
-								<span class="company">Company Name - 2010 - 2012</span>
+								<h3 class="timeline-title">IT Desk Student Assistant</h3>
+								<span class="company">NJIT Digital Learning</br> Jan 2024 - Current</span>
 							</div>
 							<div class="timeline-body">
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 							</div>
 						</div>
 					</li>
-
+					<li class="timeline-inverted animate-box">
+						<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3 class="timeline-title">Peer Mentor</h3>
+								<span class="company">NJIT Learning Communities</br> Sep 2023 - Current</span>
+							</div>
+							<div class="timeline-body">
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							</div>
+						</div>
+					</li>
+					<li class="animate-box timeline-unverted">
+						<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3 class="timeline-title">Automation Testing Intern</h3>
+								<span class="company">Spiderlink Networks</br> Dec 2021 - May 2022</span>
+							</div>
+							<!-- <div class="timeline-body">
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							</div> -->
+						</div>
+					</li>
 					<br>
-					<li class="timeline-heading text-center animate-box">
+					<!-- <li class="timeline-heading text-center animate-box">
 						<div><h3>Education</h3></div>
 					</li>
 					<li class="timeline-inverted animate-box">
 						<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h3 class="timeline-title">Masters Degree</h3>
-								<span class="company">University Name - 2007 - 2009</span>
+								<h3 class="timeline-title">Bachelors Degree</h3>
+								<span class="company">New Jersey Institute of Technology</br> 2022 - Current</span>
 							</div>
 							<div class="timeline-body">
 								<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -231,7 +255,7 @@
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 							</div>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -314,7 +338,8 @@
 				<div class="row">
 					<!-- Contact Form -->
 					<div class="col-8 col-12-small">
-						<form method="post" action="#">
+						<!-- Add 'id="contact-form"' and 'onsubmit' attribute -->
+						<form id="contact-form" onsubmit="sendEmail(); return false;">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-6 col-12-xsmall">
 									<input type="text" name="name" id="name" placeholder="Name" required />
@@ -330,6 +355,9 @@
 								<li><input type="submit" value="Send Message" /></li>
 							</ul>
 						</form>
+						<!-- Success and Error Messages -->
+						<div id="submitSuccessMessage" style="display:none;color:green;">Your message has been sent successfully!</div>
+						<div id="submitErrorMessage" style="display:none;color:red;">There was an error sending your message. Please try again later.</div>
 					</div>
 					<!-- Contact Information -->
 					<div class="col-4 col-12-small">
@@ -344,37 +372,33 @@
 							</li>
 							<li>
 								<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-								<a href="mailto:aditnuwal18@gmail.com" style="color: black;">aditnuwal18@gmail.com</a>
+								<a href="mailto:aditnuwal18@gmail.com">aditnuwal18@gmail.com</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</section>
-			
-			<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 			<script type="text/javascript">
-				
-			
-				document.querySelector('form').addEventListener('submit', function(event) {
-					event.preventDefault(); 
-			
+				function sendEmail() {
 					const templateParams = {
-						name: document.getElementById('name').value,
-						email: document.getElementById('email').value,
-						message: document.getElementById('message').value
+						name: document.getElementById("name").value,
+						email: document.getElementById("email").value,
+						message: document.getElementById("message").value,
 					};
-			
-					emailjs.send('service_i30jl87', 'template_rzh8h9p', templateParams)
+		
+					emailjs.send("service_i30jl87", "template_rzh8h9p", templateParams)
 						.then(function(response) {
-							alert('Email successfully sent!');
+							console.log("Email sent successfully:", response);
+							document.getElementById("submitSuccessMessage").style.display = "block";
+							document.getElementById("contact-form").reset(); 
 						}, function(error) {
-							alert('Failed to send email. Please try again later.');
+							console.log("Error sending email:", error);
+							document.getElementById("submitErrorMessage").style.display = "block";
 						});
-				});
+				}
 			</script>
 			
-
-
 
 				<!-- Four -->
 				<!--
@@ -731,7 +755,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<!-- Easy PieChart -->
 	<script src="js2/jquery.easypiechart.min.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js2/google_map.js"></script>
 	
 	<!-- Main -->

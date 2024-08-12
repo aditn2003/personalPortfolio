@@ -531,8 +531,9 @@ input, select, textarea {
   }
   .timeline > li > .timeline-panel {
 	width: 45%;
-	float: left;
-	margin-bottom: 0;
+	/* float: left; */
+	margin-bottom: 0.2em;
+	margin-right: 0;
 	position: relative;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -563,9 +564,10 @@ input, select, textarea {
 	font-size: 1.4em;
 	text-align: center;
 	position: absolute;
-	top: 40px;
+	top: 30px;
 	left: 50%;
 	margin-left: -21px;
+	
 	background-color: #FF9000;
 	z-index: 100;
 	display: table;
@@ -616,23 +618,26 @@ input, select, textarea {
   
   .timeline-title {
 	margin-top: 0;
+	font-weight: bolder;
   }
   
   .company {
 	display: block;
 	margin-bottom: 20px;
-	font-size: 16px;
-	font-weight: normal;
-	color: #bfbfbf;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
   }
   
   .timeline-body > p,
   .timeline-body > ul {
 	margin-bottom: 0;
+	color: #ffffff00;
   }
   
   .timeline-body > p + p {
 	margin-top: 5px;
+	
   }
   
   @media (max-width: 992px) {
