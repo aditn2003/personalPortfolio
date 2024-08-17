@@ -3917,22 +3917,22 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
-			text-shadow: 
-        1px 1px 0 #000,  
-       -1px -1px 0 #000,
-        1px -1px 0 #000,
-       -1px  1px 0 #000, /* Outline color */
-        0 0 5px rgba(0, 0, 0, 0.5);
+		
+		color: #ffffff;
+
 		font-weight: bold;
 		font-size: 1.1em;
-		margin-bottom: 4em;
+		margin-bottom: 2.5em;
+		
+		margin-right: 0.5em;
+		text-shadow: 0 0 5px #ffbb00;
+    	transition: color 0.3s ease, text-shadow 0.3s ease;
 		
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
-			margin-bottom: 2em;
+			margin-bottom: 1.5em;
 		}
 
 		#header h1 {
@@ -3992,7 +3992,7 @@ input, select, textarea {
     color: #ffffff; /* Orange color */
 	text-shadow: 0 0 8px #ffbb00;
     font-size: 1.2em; /* Make icons smaller */
-    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 #footer .icons a:hover {
