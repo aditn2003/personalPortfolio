@@ -3526,15 +3526,15 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 		ul.actions li input{
-		background-color: #ffae00; /* Button color */
-    	color: #ffffff; /* Text color */
-    	font-size: 1em; /* Font size */
-    	border-radius: 4px; /* Rounded corners */
-    	text-decoration: none; /* Remove underline */
-    	display: flex; /* Use flexbox for centering text */
-    	align-items: center; /* Center vertically */
-    	justify-content: center; /* Center horizontally */
-    	text-align: center; /* Ensure text is centered */
+		background-color: #ffae00; 
+    	color: #ffffff; 
+    	font-size: 1em; 
+    	border-radius: 4px; 
+    	text-decoration: none; 
+    	display: flex; 
+    	align-items: center;
+    	justify-content: center; 
+    	text-align: center;
     	width: 150px; 
 		font-weight: bold;
 		border:none;
@@ -3974,7 +3974,7 @@ input, select, textarea {
 		}
 
 /* Footer */
-/* Footer Icons */
+
 #footer .icons {
     margin-top: 3em;
 }
@@ -3985,14 +3985,14 @@ input, select, textarea {
 
 #footer .icons a {
 	margin-right: 0.5em;
-    color: #ffffff; /* Orange color */
+    color: #ffffff; 
 	text-shadow: 0 0 8px #ffbb00;
-    font-size: 1.2em; /* Make icons smaller */
+    font-size: 1.2em; 
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 #footer .icons a:hover {
-    color: #ffbb00; /* White on hover */
+    color: #ffbb00; 
     text-shadow: 0 0 20px #ffbb00; 
 }
 
@@ -4039,8 +4039,8 @@ input, select, textarea {
 /* About Me */
 #about {
     position:static;
-	padding: 2em; /* Adjust padding as needed */
-    border-top: solid 2px #efefef; /* Retains the border if needed */
+	padding: 2em; 
+    border-top: solid 2px #efefef; 
     margin-bottom: 4em; 
 }
 
@@ -4051,28 +4051,24 @@ input, select, textarea {
     margin-bottom: 0.5em;
 	text-align: left;
 	text-shadow: 2px 2px 4px #6f6f6f;
-	text-shadow: 
-        
-         1.5px  1px 0 #ffae00; 
+	text-shadow: 1.5px  1px 0 #ffae00; 
 	font-weight: bolder;
 }
 
 
 #about p {
     font-size: 1em;
-    
     /* margin-bottom: 1.5em; */
 }
 
 #about .actions {
-    
-	position: absolute; /* Position the actions list absolutely within the #about section */
-    top: 1em; /* Distance from the top of the section */
+	position: absolute;
+    top: 1em;
     right: 1em;
 }
 #about .actions .button {
-    background-color: #ffae00; /* Button color */
-    color: rgb(255, 255, 255); /* Text color */
+    background-color: #ffae00; 
+    color: rgb(255, 255, 255); 
 	border: solid 3px #ffae00;
     padding: 0.75em 1.5em; 
     font-size: 1em; 
@@ -4087,21 +4083,19 @@ input, select, textarea {
 }
 
 #about .actions .button:hover{
-
 	background-color: #000000; 
 	color: #ffae00;
 	box-shadow: 0 0 10px #ffae00;
 	transform: scale(0.97);
 }
 #about .actions2 {
-    
-	position: absolute; /* Position the actions list absolutely within the #about section */
-    top: 2em; /* Distance from the top of the section */
+	position: absolute; 
+    top: 2em; 
     right: 12em;
 }
 #about .actions2 .button {
-    background-color: #ffae00; /* Button color */
-    color: rgb(255, 255, 255); /* Text color */
+    background-color: #ffae00; 
+    color: rgb(255, 255, 255);
 	border: solid 3px #ffae00;
     padding: 0.75em 1.5em; 
     font-size: 1em; 
@@ -4126,7 +4120,7 @@ input, select, textarea {
 
 /* Academics Section */
 .academics {
-    background-color: #2f2f2f; /* Light grey background to differentiate */
+    background-color: #2f2f2f; 
     padding: 1em;
     margin-top: 2em;
     transition: background-color 0.3s, color 0.3s;
@@ -4205,13 +4199,13 @@ input, select, textarea {
 #projects .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left; /* Center the items */
+    justify-content: left; 
 }
 
 #projects .work-item {
-    border-radius: 8px; /* Rounded corners */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-    margin-bottom: 1em; /* Space below items */
+    border-radius: 8px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin-bottom: 1em; 
 }
 
 #projects .work-item:hover {
@@ -4252,8 +4246,8 @@ input, select, textarea {
 }
 
 #projects .work-content .details a.github-button {
-    background-color: #ffae00; /* Button color */
-    color: rgb(255, 255, 255); /* Text color */
+    background-color: #ffae00; 
+    color: rgb(255, 255, 255);
 	border: solid 3px #ffae00;
     padding: 0.75em 1.5em; 
     font-size: 1em; 
@@ -4277,8 +4271,8 @@ input, select, textarea {
 /* Experience Section */
 #experience {
     position:static;
-	padding: 2em; /* Adjust padding as needed */
-    border-top: solid 2px #efefef; /* Retains the border if needed */
+	padding: 2em;
+    border-top: solid 2px #efefef; 
     margin-bottom: 4em; 
 }
 
@@ -4310,10 +4304,10 @@ input, select, textarea {
     align-items: center;
     padding: 2em;
     margin-bottom: 1em;
-    background-color: #bdbdbd89; /* Default background color */
-    border-radius: 8px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #bdbdbd89; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .experience-item:hover {
@@ -4328,10 +4322,9 @@ input, select, textarea {
 }
 
 .experience-item .company-logo img {
-    width: 75px; /* Forcefully set the width */
-    height: 75px; /* Forcefully set the height */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
-    border-radius: 4px;
+    width: 75px; 
+    height: 75px;
+    object-fit: cover; 
 	border-color: #3eb08f;
 }
 
@@ -4360,14 +4353,14 @@ input, select, textarea {
         1px 1px 0 #000,  
        -1px -1px 0 #000,
         1px -1px 0 #000,
-       -1px  1px 0 #000, /* Outline color */
+       -1px  1px 0 #000, 
         0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 #contact {
     position:static;
-	padding: 2em; /* Adjust padding as needed */
-    border-top: solid 2px #efefef; /* Retains the border if needed */
+	padding: 2em;
+    border-top: solid 2px #efefef; 
     margin-bottom: 4em; 
 }
 #contact h2 {
@@ -4384,12 +4377,11 @@ input, select, textarea {
 #contact h2::after {
     content: "";
     width: 100px; 
-    height: 4px; /* Height of the line */
-    background-color: #ffae00; /* Line color */
-    margin-top: 1em; /* Space between text and line */
-	display: flex; /* Use flexbox for centering text */
-	margin: 0 auto; /* Centers the line horizontally */
-
+    height: 4px; 
+    background-color: #ffae00; 
+    margin-top: 1em; 
+	display: flex; 
+	margin: 0 auto; 
 }
 
 
@@ -4815,12 +4807,12 @@ input, select, textarea {
 
     /* Header */
     #header {
-        padding: 1.5em 1em; /* Reduce padding */
+        padding: 1.5em 1em; 
     }
 
     #header h1 {
-        font-size: 1.2em; /* Further reduce font size */
-    }
+        font-size: 1.2em;
+	}
 
     h1 {
         font-size: 1.3em;
@@ -4856,21 +4848,21 @@ input, select, textarea {
 
     /* Footer */
     #footer {
-        padding: 1.5em 1em; /* Reduce padding */
+        padding: 1.5em 1em; 
     }
 
     #footer .icons a {
-        font-size: 1em; /* Reduce icon size */
+        font-size: 1em; 
     }
 
     /* Main Content */
     #main {
-        padding: 1.5em 1em 0.5em 1em; /* Adjust padding */
-    }
+        padding: 1.5em 1em 0.5em 1em;
+	}
 
     #main > section {
         margin: 1.5em 0 0 0;
-        padding: 1.5em 0 0 0; /* Adjust padding */
+        padding: 1.5em 0 0 0;
     }
 	/* Poptrox */
 
@@ -4891,29 +4883,29 @@ input, select, textarea {
 
     /* Header */
     #header {
-        padding: 3em 1em; /* Adjust padding for extra small screens */
+        padding: 3em 1em; 
     }
 
     #header h1 {
-        font-size: 1em; /* Smallest font size for header */
+        font-size: 1em; 
     }
 
     /* Footer */
     #footer {
-        padding: 1.5em 1em; /* Keep padding consistent with smaller screens */
+        padding: 1.5em 1em; 
     }
 
     #footer .icons a {
-        font-size: 0.8em; /* Further reduce icon size */
-    }
+        font-size: 0.8em;
+	}
 
     /* Main Content */
     #main {
-        padding: 1em 1em 0.5em 1em; /* Adjust padding for main content */
+        padding: 1em 1em 0.5em 1em;
     }
 
     #main > section {
         margin: 1em 0 0 0;
-        padding: 1em 0 0 0; /* Reduce section padding */
+        padding: 1em 0 0 0;
     }
 }
