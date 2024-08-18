@@ -3955,24 +3955,20 @@ input, select, textarea {
 		#header .image.avatar img:hover {
 			transform: scale(1.05);
 			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-			border: 3px solid #88888876; /* Optional: Add a border on hover for a unique effect */
+			border: 3px solid #88888876; 
 		}
 		#header .button {
-			color: #ffd272; /* Text color */
+			color: #ffbb00; 
 			font-size: 1.25em; 
 			font-weight: bold;
-		}
-		
-		/* Remove Border and Center Text */
-		#header .button {
-			border: none; /* No border */
-			text-align: center; /* Center text */
-			display: inline-block; /* Respect padding */
+			border: none; 
+			text-align: center; 
+			display: inline-block;
 		}
 		#header .button:hover {
-			color: #ffbb00; /* Text color */
+			color: #ffbb00; 
 			transform: scale(1.05);
-			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+			box-shadow: 0 1px 10px #ffbb00;
 			border: 3px solid #ffbb00;
 			
 		}
@@ -4352,7 +4348,7 @@ input, select, textarea {
         1px 1px 0 #000,  
        -1px -1px 0 #000,
         1px -1px 0 #000,
-       -1px  1px 0 #000, /* Outline color */
+       -1px  1px 0 #000, 
         0 0 5px rgba(0, 0, 0, 0.5);
 }
 
