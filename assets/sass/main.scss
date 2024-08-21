@@ -95,8 +95,7 @@ $size-header-pad: 4em;
 
 /* Basic */
 
-	// Set box model to border-box.
-	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+	
 		html {
 			box-sizing: border-box;
 		}
