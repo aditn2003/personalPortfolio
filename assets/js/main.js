@@ -111,3 +111,8 @@
 			});
 
 })(jQuery);
+
+function updateScrollHighlight() {
+  const hasActive = document.querySelector('.tag.highlight-skill') !== null;
+  document.body.classList.toggle('highlight-scroll', hasActive);
+}
