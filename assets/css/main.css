@@ -731,21 +731,6 @@ textarea {
   gap: 2rem;
 }
 
-.skill-card {
-  border-radius: 16px;
-  padding: 1.5rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  background: white;
-}
-
-.skill-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-}
-
 .card-header {
   display: flex;
   align-items: center;
@@ -886,30 +871,16 @@ body::-webkit-scrollbar-thumb {
 
 /* Background themes */
 .bg-blue {
-  background: #eef2ff;
+  background: #dee5fd;
 }
 .bg-green {
-  background: #e6fff2;
+  background: #e3fff1;
 }
 .bg-orange {
-  background: #fff3e0;
+  background: #fff1dc;
 }
 .bg-pink {
-  background: #fbe7f9;
-}
-
-/* Light themed backgrounds */
-.bg-blue {
-  background: #eef2ff;
-}
-.bg-green {
-  background: #e6fff2;
-}
-.bg-orange {
-  background: #fff3e0;
-}
-.bg-pink {
-  background: #fbe7f9;
+  background: #ffe6fd;
 }
 
 /* Make the card match orange/black theme */
